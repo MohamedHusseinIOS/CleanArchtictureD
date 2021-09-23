@@ -33,6 +33,7 @@
 		844EFE5B26FB553C00EBD347 /* CharactersGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EFE5A26FB553C00EBD347 /* CharactersGateway.swift */; };
 		844EFE5D26FB55B300EBD347 /* CharactersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EFE5C26FB55B300EBD347 /* CharactersRouter.swift */; };
 		844EFE5F26FB5D2200EBD347 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EFE5E26FB5D2200EBD347 /* CharacterModel.swift */; };
+		84B5D26826FC5558009D69B6 /* ErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5D26726FC5558009D69B6 /* ErrorEntity.swift */; };
 		CDAA874D9B8FA739CD40A5EB /* Pods_CleanArchtectureDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4211BE603401E162481A13 /* Pods_CleanArchtectureDTests.framework */; };
 		D9D26AB311FB2CEDD3A8F99D /* Pods_CleanArchtectureD_CleanArchtectureDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEA0CE28065F0FEE8136B6D /* Pods_CleanArchtectureD_CleanArchtectureDUITests.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +94,7 @@
 		844EFE5A26FB553C00EBD347 /* CharactersGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersGateway.swift; sourceTree = "<group>"; };
 		844EFE5C26FB55B300EBD347 /* CharactersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRouter.swift; sourceTree = "<group>"; };
 		844EFE5E26FB5D2200EBD347 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		84B5D26726FC5558009D69B6 /* ErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEntity.swift; sourceTree = "<group>"; };
 		BF006B082A3452595B06F13E /* Pods-CleanArchtectureDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchtectureDTests.debug.xcconfig"; path = "Target Support Files/Pods-CleanArchtectureDTests/Pods-CleanArchtectureDTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFEA0CE28065F0FEE8136B6D /* Pods_CleanArchtectureD_CleanArchtectureDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanArchtectureD_CleanArchtectureDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -238,6 +240,7 @@
 		844EFE3026FB26E000EBD347 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				84B5D26726FC5558009D69B6 /* ErrorEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -591,6 +594,7 @@
 				844EFE5B26FB553C00EBD347 /* CharactersGateway.swift in Sources */,
 				844EFE0026FB262300EBD347 /* SceneDelegate.swift in Sources */,
 				844EFE4A26FB4C2800EBD347 /* UIText+Extension.swift in Sources */,
+				84B5D26826FC5558009D69B6 /* ErrorEntity.swift in Sources */,
 				844EFE4C26FB4C2800EBD347 /* DataResponse+Extension.swift in Sources */,
 				844EFE5D26FB55B300EBD347 /* CharactersRouter.swift in Sources */,
 				844EFE5926FB547E00EBD347 /* CharactersGatewayType.swift in Sources */,
