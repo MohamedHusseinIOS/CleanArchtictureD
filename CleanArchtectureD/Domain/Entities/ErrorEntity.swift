@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ErrorEntity {
+struct ErrorEntity: Error {
     var message: String?
     var title: String?
 }
