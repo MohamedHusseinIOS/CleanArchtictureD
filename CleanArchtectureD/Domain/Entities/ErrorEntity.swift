@@ -7,4 +7,7 @@
 
 import Foundation
 
-class ErrorEntity: 
+class ErrorEntity {
+    var message: String?
+    var title: String?
+}
